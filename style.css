@@ -1,7 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 main {
   margin: 4em;
 }
 
-div {
-  margin-bottom: 4em;
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
 }
