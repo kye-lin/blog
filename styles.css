@@ -386,7 +386,7 @@ featured-articles-container, .featured-content {
 }
 
 .title {
-  color: var(--light-color);
+  color: var(--light-color-alt);
 }
 
 .article-title {
@@ -440,7 +440,7 @@ featured-articles-container, .featured-content {
 }
 
 .popular-posts-box:hover .article-title {
-  color: var(--light-color-alt);
+  color: var(--light-color);
 }
 
 /* Quick read */
