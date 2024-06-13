@@ -11,6 +11,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
     <!-- Remix icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
   </head>
   <body>
     <header class="header" id="header">
@@ -24,6 +26,9 @@
           <ul class="list">
             <li class="list-item">
               <a href="" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">About</a>
             </li>
             <li class="list-item">
               <a href="" class="list-link">Blog</a>
@@ -119,7 +124,7 @@
           </a>
 
           <a href="./being_smart_is_overrated.html" class="article featured-article featured-article-1">
-            <img src="studying-graphic.webp" alt="#">
+            <img src="studying-graphic.webp" alt="person studying">
             <span class="article-category">Math, Self-esteem</span>
 
             <div class="article-data-container">
@@ -134,7 +139,7 @@
           </a>
 
           <a href="./the_body_keeps_the_score.html" class="article featured-article featured-article-1">
-            <img src="" alt="">
+            <img src="hospital.jpeg" alt="hospital room with empty beds">
             <span class="article-category">Books, Mental health</span>
 
             <div class="article-data-container">
@@ -212,6 +217,16 @@
     </section>
 
     <!-- Quick read -->
+     <section class="quick-read section">
+
+      <div class="container">
+
+        <h2 class="title section-title" data-name="Quick read">Quick Read</h2>
+
+        <div class="swiper"></div>
+
+      </div>
+     </section>
 
     <!-- Older posts -->
 
@@ -222,6 +237,8 @@
     <!-- Footer -->
 
 
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- Custom script -->
     <script src="./main.js"></script>
   </body>

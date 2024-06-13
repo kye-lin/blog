@@ -432,7 +432,7 @@ featured-articles-container, .featured-content {
   height: 3rem;
   background-color: var(--secondary-background-color);
   color: var(--light-color);
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .popular-posts-data .article-title {
