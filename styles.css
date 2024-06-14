@@ -387,7 +387,7 @@ featured-articles-container, .featured-content {
 }
 
 .title {
-  color: var(--light-color-alt);
+  color: var(--light-color);
 }
 
 .article-title {
@@ -441,7 +441,7 @@ featured-articles-container, .featured-content {
 }
 
 .popular-posts-box:hover .article-title {
-  color: var(--light-color);
+  color: var(--light-color-alt);
 }
 
 /* Quick read */
@@ -532,6 +532,31 @@ featured-articles-container, .featured-content {
 }
 
 /* Popular tags */
+.popular-tags-container {
+  gap: var(--gap);
+}
+
+.popular-tags-container .article {
+  min-height: var(--item-min-height-sm);
+  overflow: hidden;
+}
+
+.tag-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  z-index: 10;
+}
+
+.popular-tags-container .article:hover .tag-name {
+  color: var(--light-color);
+}
+
+.popular-tags-container .article:hover .article-image {
+  transform: scale(1.05);
+}
 
 /* Newsletter */
 
