@@ -110,6 +110,10 @@ body.light-theme {
   padding-block: 5rem;
 }
 
+.align-center-text {
+  text-align: center;
+}
+
 /* Header */
 .header {
   background-color: var(--secondary-background-color);
