@@ -114,6 +114,16 @@ body.light-theme {
   text-align: center;
 }
 
+.blockquote {
+  margin: 4rem auto;
+}
+
+.quote {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-md);
+  margin: 2rem auto;
+}
+
 /* Header */
 .header {
   background-color: var(--secondary-background-color);
