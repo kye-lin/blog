@@ -124,6 +124,10 @@ body.light-theme {
   margin: 2rem auto;
 }
 
+/* iframe {
+  margin-bottom: 3rem; 
+} */
+
 /* Header */
 .header {
   background-color: var(--secondary-background-color);
