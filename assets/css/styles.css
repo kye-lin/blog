@@ -770,11 +770,11 @@ featured-articles-container, .featured-content {
 /* tablets */
 @media screen and (min-width: 768px) {
   .featured-content {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 5rem repeat(4, 1fr);
   }
 
   .headline-banner {
-    grid-column: 1/-1; /* stretch across home page*/
+    grid-column: 1/-1; /* stretch across home page */
   }
 } 
