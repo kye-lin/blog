@@ -124,6 +124,11 @@ body.light-theme {
   margin: 2rem auto;
 }
 
+.quote-hr {
+  width: 10%;
+  margin: 0 auto;
+}
+
 /* iframe {
   margin-bottom: 3rem; 
 } */
@@ -684,12 +689,21 @@ featured-articles-container, .featured-content {
   margin-top: 3rem;
 }
 
+.blog-post-ol {
+  margin-left: 3rem;
+  font-family: var(--font-family-serif);
+}
+
 .link {
   text-decoration: underline;
 }
 
-.link:hover {
+.blog-post-text .link:hover {
   color: var(--light-color-alt);
+}
+
+.blog-post-caption .link:hover {
+  color: var(--light-color);
 }
 
 .author {
