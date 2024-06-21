@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>loaf soup</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./loaf.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href=".assets/css/swiper-bundle.min.css"/>
+  </head>
+  <body>
+		<!-- Nav bar -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+
+        <a href="./index.html">
+          <h2 class="logo">Loaf Soup</h2>
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="./index.html" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Blog</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Projects</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Contact</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="" class="list-link">Sign in</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link screen-lg-hidden">Sign up</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+          <a href="" class="list-link screen-sm-hidden">Sign in</a>
+          <a href="" class="list-link screen-sm-hidden btt sign-up-btn fancy-border">
+            <span>Sign up</span>
+          </a>
+
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Search">
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Press ESC to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Blog post -->
+		<section class="blog-post">
+			<div class="blog-post-container">
+				<h1 class="blog-post-title">6 Life Lessons from My 1st Year of Uni
+				</h1>
+	
+				<h4 class="blog-post-subtitle">Imposter syndrome, meeting new people, and learning how to live life.
+				</h4>
+	
+				<img src="./assets/images/sunset.jpg" alt="sunset" class="blog-post-image">
+				<p class="blog-post-caption">
+					A sunset from my second semester of freshman year.
+				</p>
+	
+				<div class="article-data">
+					<span>20 June 2024</span>
+					<span class="article-data-spacer"></span>
+					<span>5 minute read</span>
+				</div>
+	
+				<hr class="hr-spacer">
+				
+				<p class="blog-post-text">Summer is a good time to reflect on a finished school year and look forward to the next. This post is more like a journal entry than an article, so feel free to take whatever is relevant to you and skip the rest.
+
+				</p>
+
+				<p class="blog-post-text">For context, I am currently a 4-year university student at a UC (University of California). 2023-2024 was my freshman year. I lived in an on-campus dorm with roommates and floormates who were also freshmen. 
+				</p>
+
+				<p class="blog-post-text">6 Life Lessons I learned: 
+				</p>
+
+				<ol class="blog-post-ol">
+					<li>
+						<p class="blog-post-text"><strong>Almost everyone experiences imposter syndrome.</strong> You are enough. 
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><strong>Don't compare.</strong> Each person has a unique background, life trajectory, and set of goals they’re working towards. The best thing to do is support them in their endeavors and focus on your own goals. 
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><strong>Say yes to opportunities, but learn to say no too.</strong> You will meet a lot of people at university, which is great because there will be lots of opportunities to spend time together, conversate, and explore new experiences. Say yes to as many things as you can, because exploring can lead you to new places you never thought possible. On the flip side, saying no to commitments that would drain you will pay off immensely. </p>
+					</li>
+					<li>
+						<p class="blog-post-text"><strong>People are who they are; you can’t change them.</strong> After living with the most horrendous roommate (and a great one who kept me sane), I learned that no matter how hard you try, you can’t force people to change. <strong>All you can control are your reactions, responses, and actions.</strong> For instance, that horrendous roommate kept making a fuck ton of noise while me and great roommate were trying to sleep. We told them repeatedly that we wish they’d be quieter, to no avail. Finally, I got a pair of earplugs and slept soundly ever since. 
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><strong>Learn your limits.</strong> It’s okay if you can’t be a productive robot 24/7. Sometimes your body might give up and say “please, no more.” That means it’s telling you to rest. Listen. 
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><strong>Nothing is ever that serious.</strong> No one decision, success, or failure will ruin your life. It’s okay to go in one direction, and change your mind and switch to another.</p>
+					</li>
+				</ol>
+
+				<p class="blog-post-text">
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<!-- <blockquote class="blockquote">
+					<hr class="quote-hr">
+					<p class="quote"></p>
+					<hr class="quote-hr">
+				</blockquote> -->
+
+
+				<!-- About the author -->
+				<div class="author d-grid">
+					<div class="author-image-box">
+						<img src="./assets/images/pfp-drawing.jpeg" alt="my profile picture" class="article-image">
+					</div>
+	
+					<div class="author-about">
+						<h3 class="author-name">Hey, I'm Kye.</h3>
+						<p>I'm a university student who loves music, books, and learning new things. This website is where I share lessons I've learned and cool topics I'm curious about. Thanks for stopping by. 😙</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Newsletter -->
+			<section class="newsletter section">
+				<div class="container">
+					<!-- <h2 class="title section-title" data-name="Newsletter">Newsletter</h2> -->
+	
+					<div class="form-container-inner">
+	
+						<h6 class="title newsletter-title">Subscribe to Loaf Soup</h6>
+						<p class="newsletter-description">Sign up for a monthly newsletter to get notified about new posts.</p>
+	
+						<form action="" class="form">
+							<input type="text" class="form-input" placeholder="Enter your email address">
+							<button class="btn form-btn" type="submit">
+								<i class="ri-mail-send-line"></i>
+							</button>
+						</form>
+	
+					</div>
+	
+				</div>
+			</section>
+	
+			<!-- Footer -->
+			<footer class="footer section">
+	
+				<div class="footer-container container d-grid">
+	
+					<div class="company-data">
+						<a href="./index.html">
+							<h2 class="logo">Loaf Soup</h2>
+						</a>
+						<p class="company-description">just a human with lots of thoughts</p>
+	
+						<ul class="list social-media">
+							<li class="list-item">
+								<a href="#" class="list-link">
+									<i class="ri-instagram-line"></i>
+								</a>
+								<a href="#" class="list-link">
+									<i class="ri-facebook-line"></i>
+								</a>
+								<a href="#" class="list-link">
+									<i class="ri-github-line"></i>
+								</a>
+								<a href="#" class="list-link">
+									<i class="ri-linkedin-line"></i>
+								</a>
+							</li>
+						</ul>
+	
+						<span class="copyright-notice">&copy; 2024 Loaf Soup. All rights reserved.</span>
+					</div>
+	
+					<div>
+						<h6 class="title footer-title">Navigation</h6>
+	
+						<ul class="list footer-list">
+							<li class="list-item">
+								<a href="#" class="list-link">Home</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">About</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Blog</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Projects</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Contact</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Sign in</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Sign up</a>
+							</li>
+						</ul>
+					</div>
+	
+					<div>
+						<h6 class="title footer-title">Categories</h6>
+	
+						<ul class="list footer-list">
+							<li class="list-item">
+								<a href="#" class="list-link">Books</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Challenges</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Self-esteem</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Health</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Music</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Fitness</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+	
+			</div>
+		</section>
+    
+
+    <!-- Related posts -->
+
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

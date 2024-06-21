@@ -643,6 +643,23 @@ featured-articles-container, .featured-content {
   margin-bottom: var(--margin-sm);
 }
 
+/* Archive/Blog page */
+.archive {
+  width: 600px;
+  margin: 0 auto;
+  color: var(--light-color);
+}
+
+.archive-year {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.archive-text {
+  font-family: var(--font-family);
+  margin-bottom: 1rem;
+}
+
 /* Blog post */
 .blog-post {
   padding-bottom: 5rem;
@@ -692,6 +709,11 @@ featured-articles-container, .featured-content {
 .blog-post-ol {
   margin-left: 3rem;
   font-family: var(--font-family-serif);
+}
+
+.blog-post-bullet-ul {
+  margin-left: 2rem;
+  list-style-type: disc;
 }
 
 .link {
