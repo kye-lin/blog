@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>loaf soup</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./loaf.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href=".assets/css/swiper-bundle.min.css"/>
+  </head>
+  <body>
+		<!-- Nav bar -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+
+        <a href="./index.html">
+          <h2 class="logo">Loaf Soup</h2>
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="./index.html" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Blog</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Projects</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Contact</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="" class="list-link">Sign in</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link screen-lg-hidden">Sign up</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+          <a href="" class="list-link screen-sm-hidden">Sign in</a>
+          <a href="" class="list-link screen-sm-hidden btt sign-up-btn fancy-border">
+            <span>Sign up</span>
+          </a>
+
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Search">
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Press ESC to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Blog post -->
+		<section class="blog-post">
+			<div class="blog-post-container">
+				<h1 class="blog-post-title">The learning never stops
+				</h1>
+	
+				<h4 class="blog-post-subtitle">10 things I’m reading, watching, listening to, and learning about this week
+				</h4>
+	
+				<img src="./assets/images/walk.jpeg" alt="street" class="blog-post-image">
+				<p class="blog-post-caption">
+					A photo from one of my walks.
+				</p>
+	
+				<div class="article-data">
+					<span>22 June 2024</span>
+					<span class="article-data-spacer"></span>
+					<span>4 minute read</span>
+				</div>
+	
+				<hr class="hr-spacer">
+				
+				<p class="blog-post-text">
+				</p>
+
+				<p class="blog-post-text">Idea from <a href="https://austinkleon.com/" class="link" target="_blank">Austin Kleon</a>.
+				</p>
+
+				<ol class="blog-post-ol">
+					<li>
+						<p class="blog-post-text"><span class="italic"><a href="https://www.penguinrandomhouse.com/books/730751/when-we-walk-by-by-kevin-f-adler-and-donald-w-burnes-with-amanda-banh-and-andrijana-bilbija/" class="link" target="_blank">When We Walk By</a></span> by Kevin F. Adler, Donald W. Burnes
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><span class="italic"><a href="https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises" class="link" target="_blank">The Sun Also Rises</a></span> by Ernest Hemingway
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><span class="italic"><a href="https://austinkleon.com/show-your-work/" class="link" target="_blank">Show Your Work!</a></span> by Austin Kleon</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><a href="https://www.netflix.com/title/70140391" class="link" target="_blank">Grey’s Anatomy</a> (Netflix TV show)</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><a href="https://www.dreamingspanish.com/" class="link" target="_blank">Dreaming Spanish</a> (comprehensible Spanish input)</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><a href="https://www.youtube.com/watch?v=ynGFgvgOOiA" class="link" target="_blank">If I Should Lose You</a>  (Grant Green, jazz guitarist)</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><a href="https://www.youtube.com/watch?v=WdqJhKzn8JA" class="link" target="_blank">Afternoon in Paris</a> (Kenny Burrell, jazz guitarist)</p>
+					</li>
+					<li>
+						<p class="blog-post-text"><a href="https://open.spotify.com/artist/3t58jfUhoMLYVO14XaUFLA" class="link" target="_blank">Pat Metheny’s</a> new single album <a href="https://open.spotify.com/album/5V4arQKht2Q4t12GqYRLxv" class="link" target="_blank">Here, There and Everywhere</a></p>
+					</li>
+					<li>
+						<p class="blog-post-text">freeCodeCamp <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" class="link" target="_blank">Responsive Web Design</a> curriculum
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text">Linear algebra - Row reduction, echelon forms, linear independence, matrix multiplication, determinants, and whether matrices are invertible or not.</p>
+					</li>
+				</ol>
+
+				<img src="./assets/images/steak-n-veg.jpeg" alt="steak and steamed vegetables" class="blog-post-image">
+				<p class="blog-post-caption">
+					My favorite homecooked meal from the week.
+				</p>
+
+				<p class="blog-post-text">Progress from this week:
+				</p>
+
+				<ul class="blog-post-bullet-ul">
+					<li>
+						<p class="blog-post-text">Published a couple new blog posts and the <a href="./blog.html" class="link" target="_blank">archive</a> page.
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text">Learned about CSS animation and transforms through freeCodeCamp’s Responsive Web Design curriculum.
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text">Composed a <a href="./dumpster_waltz.html" class="link">waltz for guitar</a>.
+						</p>
+					</li>
+				</ul>
+
+				<img src="./assets/images/panang-nua.jpeg" alt="street" class="blog-post-image">
+				<p class="blog-post-caption">
+					Delicious panang nua from my favorite local Thai restaurant.
+				</p>
+
+				<ul class="blog-post-bullet-ul">
+					<li>
+						<p class="blog-post-text">Did cardio 15-30 minutes 5x this week. It helps curb my anxiety and gives me more mental clarity. I also want to improve my cardiovascular health to speed up recovery while weightlifting.
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text">Tried a bro split. After watching some <a href="https://www.youtube.com/channel/UC68TLK0mAEzUyHx5x5k-S1Q" class="link" target="_blank">Jeff Nippard</a> videos, I learned that a bro split works but is not the most effective, so I’ll be switching to a push-pull-legs split next week. 
+						</p>
+					</li>
+					<li>
+						<p class="blog-post-text">Made apple pancakes on the weekend. :)
+						</p>
+					</li>
+				</ul>
+
+				<img src="./assets/images/pancake.jpeg" alt="pancake" class="blog-post-image">
+				<p class="blog-post-caption">
+					A Trader Joe's high protein pancake.
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<!-- <blockquote class="blockquote">
+					<hr class="quote-hr">
+					<p class="quote"></p>
+					<hr class="quote-hr">
+				</blockquote> -->
+
+
+				<!-- About the author -->
+				<div class="author d-grid">
+					<div class="author-image-box">
+						<img src="./assets/images/pfp-drawing.jpeg" alt="my profile picture" class="article-image">
+					</div>
+	
+					<div class="author-about">
+						<h3 class="author-name">Hey, I'm Kye.</h3>
+						<p>I'm a university student who loves music, books, and learning new things. This website is where I share lessons I've learned and cool topics I'm curious about. Thanks for stopping by. 😙</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Newsletter -->
+			<section class="newsletter section">
+				<div class="container">
+					<!-- <h2 class="title section-title" data-name="Newsletter">Newsletter</h2> -->
+	
+					<div class="form-container-inner">
+	
+						<h6 class="title newsletter-title">Subscribe to Loaf Soup</h6>
+						<p class="newsletter-description">Sign up for a monthly newsletter to get notified about new posts.</p>
+	
+						<form action="" class="form">
+							<input type="text" class="form-input" placeholder="Enter your email address">
+							<button class="btn form-btn" type="submit">
+								<i class="ri-mail-send-line"></i>
+							</button>
+						</form>
+	
+					</div>
+	
+				</div>
+			</section>
+	
+			<!-- Footer -->
+			<footer class="footer section">
+
+				<div class="footer-container container d-grid">
+	
+					<div class="company-data">
+						<a href="./index.html">
+							<h2 class="logo">Loaf Soup</h2>
+						</a>
+						<p class="company-description">just a human with lots of thoughts</p>
+	
+						<ul class="list social-media">
+							<li class="list-item">
+								<a href="https://www.youtube.com/@loafsoup" class="list-link">
+									<i class="ri-youtube-line"></i>
+								</a>
+								<a href="https://github.com/kye-lin" class="list-link">
+									<i class="ri-github-line"></i>
+								</a>
+								<a href="#" class="list-link">
+									<i class="ri-linkedin-line"></i>
+								</a>
+							</li>
+						</ul>
+	
+						<span class="copyright-notice">&copy; 2024 Loaf Soup. All rights reserved.</span>
+					</div>
+	
+					<div>
+						<h6 class="title footer-title">Navigation</h6>
+	
+						<ul class="list footer-list">
+							<li class="list-item">
+								<a href="./index.html" class="list-link">Home</a>
+							</li>
+							<li class="list-item">
+								<a href="./about.html" class="list-link">About</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Blog</a>
+							</li>
+							<!-- Note: create Archive -->
+							<li class="list-item">
+								<a href="#" class="list-link">Projects</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Contact</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Sign in</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Sign up</a>
+							</li>
+						</ul>
+					</div>
+	
+					<div>
+						<h6 class="title footer-title">Categories</h6>
+	
+						<ul class="list footer-list">
+							<li class="list-item">
+								<a href="#" class="list-link">Books</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Challenges</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Self-esteem</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Life</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Music</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Fitness</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+	
+			</div>
+		</section>
+    
+
+    <!-- Related posts -->
+
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
