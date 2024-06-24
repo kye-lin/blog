@@ -1,15 +1,19 @@
-<!--https://www.youtube.com/watch?v=Aj7HLsJenVg&ab_channel=freeCodeCamp.org-->
-
-<!-- Go slow to learn fast -->
+<!-- 
+	The navbar should contain at least one link that you can click on to navigate to different sections of the page
+	Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+	Your portfolio should have at least one media query
+	The height of the welcome section should be equal to the height of the viewport
+	The navbar should always be at the top of the viewport
+-->
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>loaf soup</title>
+    <title>loaf soup | projects</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./loaf.png">
     <!-- Remix icons -->
@@ -17,8 +21,8 @@
     <!-- Swiper.js styles -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
   </head>
-  <body>
-    <!-- Nav bar -->
+	<body>
+		<!-- Nav bar -->
     <header class="header" id="header">
       <nav class="navbar container">
 
@@ -32,13 +36,13 @@
               <a href="./index.html" class="list-link">Home</a>
             </li>
             <li class="list-item">
-              <a href="./about.html" class="list-link current">About</a>
+              <a href="./about.html" class="list-link">About</a>
             </li>
             <li class="list-item">
               <a href="./blog.html" class="list-link">Blog</a>
             </li>
             <li class="list-item">
-              <a href="./projects.html" class="list-link">Projects</a>
+              <a href="./projects.html" class="list-link current">Projects</a>
             </li>
             <li class="list-item">
               <a href="#" class="list-link">Contact</a>
@@ -76,49 +80,76 @@
       </nav>
     </header>
 
-    <!-- Search -->
-    <div class="search-form-container container" id="search-form-container">
-      <div class="form-container-inner">
-        <form action="" class="form">
-          <input type="text" class="form-input" placeholder="Search">
-          <button class="btn form-btn" type="submit">
-            <i class="ri-search-line"></i>
-          </button>
-        </form>
-        <span class="form-note">Press ESC to close</span>
-      </div>
+		<section id="welcome-section" class="section">
+			<h1 class="welcome-name section-header-offset" id="name-header">Kye Lin</h1>
 
-      <button class="btn form-close-btn place-items-center" id="form-close-btn">
-        <i class="ri-close-line"></i>
-      </button>
-    </div>
+			<ul class="list social-media place-items-center">
+				<li class="list-item">
+					<a href="https://www.youtube.com/@loafsoup" class="list-link">
+						<i class="ri-youtube-line"></i>
+					</a>
+					<a href="https://github.com/kye-lin" class="list-link">
+						<i class="ri-github-line"></i>
+					</a>
+					<a href="#" class="list-link">
+						<i class="ri-linkedin-line"></i>
+					</a>
+				</li>
+			</ul>
+		
+		</section>
 
-		<!-- Blog post -->
+		<section id="projects" class="projects section">
+			<h2 class="title section-title project-title">Projects</h2>
+
+			<div class="projects-container d-grid">
+
+				<a href="https://kye-lin.github.io/techdoc/techdoc.html" class="article featured-article" target="_blank">
+					<img src="./assets/images/project-techdoc.jpeg" alt="screenshot of technical document website project" class="article-image">
+					<!-- <span class="article-category">HTML/CSS</span> -->
+
+					<div class="article-data-container">
+						<div class="article-data">
+							<span>June 2024</span>
+							<span class="article-data-spacer"></span>
+							<span>HTML/CSS</span>
+						</div>
+					
+						<h3 class="title article-title">Technical Document Page</h3>
+						<p class="article-description">Learn the basics of Python.</p>
+					</div>
+				</a>
+
+				<a href="https://kye-lin.github.io/product-landing-page/" class="article featured-article" target="_blank">
+					<img src="./assets/images/project-product-landing-page.jpeg" alt="screenshot of product landing page" class="article-image">
+					<!-- <span class="article-category">HTML/CSS</span> -->
+
+					<div class="article-data-container">
+						<div class="article-data">
+							<span>June 2024</span>
+							<span class="article-data-spacer"></span>
+							<span>HTML/CSS</span>
+						</div>
+					
+						<h3 class="title article-title">Product Landing Page</h3>
+						<p class="article-description">You know you want to buy some Kobe mice.</p>
+					</div>
+				</a>
+
+				
+			</div>
+			
+
+		</section>
+
 		<section class="blog-post">
 			<div class="blog-post-container">
-				<h1 class="blog-post-title">About Me
-				</h1>
-	
-				<hr class="hr-spacer">
-	
-				<p class="blog-post-text">Who are you?</p>
-
-				<p class="blog-post-text">— I'm a university student who likes music, reading, and writing.</p>
-
-				<p class="blog-post-text">What are your pronouns?</p>
-
-				<p class="blog-post-text">— They/them.</p>
-
-				<p class="blog-post-text">Why did you start this blog?</p>
-
-				<p class="blog-post-text">— There were a couple of reasons. One was because I wanted to get better at writing. Another was to document my life as a student and progress as a musician.</p>
-
 				<!-- About the author -->
 				<div class="author d-grid">
 					<div class="author-image-box">
 						<img src="./assets/images/pfp-drawing.jpeg" alt="my profile picture" class="article-image">
 					</div>
-	
+
 					<div class="author-about">
 						<h3 class="author-name">Hey, I'm Kye.</h3>
 						<p>I'm a university student who loves music, books, and learning new things. This website is where I share lessons I've learned and cool topics I'm curious about. Thanks for stopping by. 😙</p>
@@ -126,31 +157,10 @@
 				</div>
 			</div>
 
-    </section>
+		</section>
 
-    <!-- Newsletter -->
-    <section class="newsletter section">
-      <div class="container">
-        <!-- <h2 class="title section-title" data-name="Newsletter">Newsletter</h2> -->
 
-        <div class="form-container-inner">
-
-          <h6 class="title newsletter-title">Subscribe to Loaf Soup</h6>
-          <p class="newsletter-description">Sign up for a monthly newsletter to get notified about new posts.</p>
-
-          <form action="" class="form">
-            <input type="text" class="form-input" placeholder="Enter your email address">
-            <button class="btn form-btn" type="submit">
-              <i class="ri-mail-send-line"></i>
-            </button>
-          </form>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Footer -->
+		<!-- Footer -->
     <footer class="footer section">
 
       <div class="footer-container container d-grid">
@@ -189,11 +199,10 @@
               <a href="./about.html" class="list-link">About</a>
             </li>
             <li class="list-item">
-              <a href="#" class="list-link">Blog</a>
+              <a href="./blog.html" class="list-link">Blog</a>
             </li>
-            <!-- Note: create Archive -->
             <li class="list-item">
-              <a href="#" class="list-link">Projects</a>
+              <a href="./projects.html" class="list-link">Projects</a>
             </li>
             <li class="list-item">
               <a href="#" class="list-link">Contact</a>
@@ -234,9 +243,11 @@
       </div>
     </footer>
 
-    <!-- Swiper.js -->
+
+		<!-- Swiper.js -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- Custom script -->
     <script src="./assets/js/main.js"></script>
-  </body>
+
+	</body>
 </html>
