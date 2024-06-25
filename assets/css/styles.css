@@ -267,7 +267,7 @@ body.light-theme {
 
 .form-input, .form-btn {
   display: inline-block;
-  border: 2px solid var(--secondary-background-color);
+  border: 2px solid var(--light-color-alt);
   padding: 1rem;
 }
 
@@ -279,8 +279,16 @@ body.light-theme {
 .form-btn {
   margin-left: -.5rem;
   border-left: none;
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   width: 8rem;
+}
+
+.form-btn:hover {
+  background-color: var(--light-color);
+}
+
+.form-btn:hover i {
+  color: var(--primary-background-color);
 }
 
 .form-note {
@@ -606,7 +614,11 @@ featured-articles-container, .featured-content {
 
 /* Newsletter */
 .newsletter {
-  padding-bottom: 6rem;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  background-color: var(--secondary-background-color);
 }
 
 .newsletter-title {
@@ -614,6 +626,7 @@ featured-articles-container, .featured-content {
 }
 
 .newsletter-description {
+  margin: 0 auto;
   margin-bottom: 3rem;
 }
 
@@ -852,6 +865,7 @@ featured-articles-container, .featured-content {
 
   .form-container-inner {
     align-items: center;
+
   }
 
   .company-data {
