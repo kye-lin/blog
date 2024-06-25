@@ -259,10 +259,16 @@ body.light-theme {
   flex-direction: row;
 }
 
+.form-label {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
 .form-input, .form-btn {
   display: inline-block;
   border: 2px solid var(--secondary-background-color);
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .form-input {
