@@ -240,7 +240,7 @@ body.light-theme {
   transition: opacity .5s;
 }
 
-.form-container-inner {
+.form-container {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -250,7 +250,13 @@ body.light-theme {
 
 .form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: row;
 }
 
 .form-input, .form-btn {
