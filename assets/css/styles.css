@@ -811,6 +811,11 @@ featured-articles-container, .featured-content {
 }
 
 @media screen and (min-width: 700px) {
+  /* .featured-article {
+    height: var(--item-min-height-sm);
+    width: 80%;
+    gap: var(--gap);
+  } */
   .popular-posts-box {
     flex-direction: row;
     align-items: center;
