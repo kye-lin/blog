@@ -277,13 +277,14 @@ body.light-theme {
 }
 
 .form-btn {
-  margin-left: -.5rem;
-  border-left: none;
   background-color: var(--primary-background-color);
   width: 8rem;
+  margin: 2rem auto;
+  border-radius: 10%;
 }
 
 .form-btn:hover {
+  color: var(--primary-background-color);
   background-color: var(--light-color);
 }
 
