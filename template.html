@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>loaf soup</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./loaf.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href=".assets/css/swiper-bundle.min.css"/>
+  </head>
+  <body>
+		<!-- Nav bar -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+
+        <a href="./index.html">
+          <h2 class="logo">Loaf Soup</h2>
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="./index.html" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Blog</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Projects</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Contact</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="" class="list-link">Sign in</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link screen-lg-hidden">Sign up</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+          <a href="" class="list-link screen-sm-hidden">Sign in</a>
+          <a href="" class="list-link screen-sm-hidden btt sign-up-btn fancy-border">
+            <span>Sign up</span>
+          </a>
+
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Search">
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Press ESC to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Blog post -->
+		<section class="blog-post">
+			<div class="blog-post-container">
+				<h1 class="blog-post-title">...
+				</h1>
+	
+				<h4 class="blog-post-subtitle">...
+				</h4>
+	
+				<img src="./assets/images/..." alt="..." class="blog-post-image">
+				<p class="blog-post-caption">
+					...
+				</p>
+	
+				<div class="article-data">
+					<span>Day Month Year</span>
+					<span class="article-data-spacer"></span>
+					<span>__ minute read</span>
+				</div>
+	
+				<hr class="hr-spacer">
+				
+				<p class="blog-post-text">
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<img src="./assets/images/..." alt="..." class="blog-post-image">
+				<p class="blog-post-caption">
+					...
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<p class="blog-post-text">
+				</p>
+
+				<!-- <blockquote class="blockquote">
+					<hr class="quote-hr">
+					<p class="quote"></p>
+					<hr class="quote-hr">
+				</blockquote> -->
+
+
+				<!-- About the author -->
+				<div class="author d-grid">
+					<div class="author-image-box">
+						<img src="./assets/images/pfp-drawing.jpeg" alt="my profile picture" class="article-image">
+					</div>
+	
+					<div class="author-about">
+						<h3 class="author-name">Hey, I'm Kye.</h3>
+						<p>I'm a university student who loves music, books, and learning new things. This website is where I share lessons I've learned and cool topics I'm curious about. Thanks for stopping by. 😙</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Newsletter -->
+			<section class="newsletter section">
+				<div class="container">
+					<!-- <h2 class="title section-title" data-name="Newsletter">Newsletter</h2> -->
+	
+					<div class="form-container-inner">
+	
+						<h6 class="title newsletter-title">Subscribe to Loaf Soup</h6>
+						<p class="newsletter-description">Sign up for a monthly newsletter to get notified about new posts.</p>
+	
+						<form action="" class="form">
+							<input type="text" class="form-input" placeholder="Enter your email address">
+							<button class="btn form-btn" type="submit">
+								<i class="ri-mail-send-line"></i>
+							</button>
+						</form>
+	
+					</div>
+	
+				</div>
+			</section>
+	
+			<!-- Footer -->
+			<!-- <footer class="footer section">
+
+				<div class="footer-container container d-grid">
+	
+					<div class="company-data">
+						<a href="./index.html">
+							<h2 class="logo">Loaf Soup</h2>
+						</a>
+						<p class="company-description">just a human with lots of thoughts</p>
+	
+						<ul class="list social-media">
+							<li class="list-item">
+								<a href="https://www.youtube.com/@loafsoup" class="list-link">
+									<i class="ri-youtube-line"></i>
+								</a>
+								<a href="https://github.com/kye-lin" class="list-link">
+									<i class="ri-github-line"></i>
+								</a>
+								<a href="#" class="list-link">
+									<i class="ri-linkedin-line"></i>
+								</a>
+							</li>
+						</ul>
+	
+						<span class="copyright-notice">&copy; 2024 Loaf Soup. All rights reserved.</span>
+					</div>
+	
+					<div>
+						<h6 class="title footer-title">Navigation</h6>
+	
+						<ul class="list footer-list">
+							<li class="list-item">
+								<a href="./index.html" class="list-link">Home</a>
+							</li>
+							<li class="list-item">
+								<a href="./about.html" class="list-link">About</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Blog</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Projects</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Contact</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Sign in</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Sign up</a>
+							</li>
+						</ul>
+					</div>
+	
+					<div>
+						<h6 class="title footer-title">Categories</h6>
+	
+						<ul class="list footer-list">
+							<li class="list-item">
+								<a href="#" class="list-link">Books</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Challenges</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Self-esteem</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Life</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Music</a>
+							</li>
+							<li class="list-item">
+								<a href="#" class="list-link">Fitness</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer> -->
+	
+			</div>
+		</section>
+    
+
+    <!-- Related posts -->
+
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
