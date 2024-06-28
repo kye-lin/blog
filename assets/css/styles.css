@@ -624,11 +624,13 @@ featured-articles-container, .featured-content {
 
 .newsletter-title {
   font-size: var(--font-size-lg);
+  text-align: center;
 }
 
 .newsletter-description {
   margin: 0 auto;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 /* Footer */
