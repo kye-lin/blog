@@ -784,6 +784,7 @@ featured-articles-container, .featured-content {
 
 .author {
   margin-top: 5rem;
+  margin-bottom: 5rem;
   gap: var(--gap);
   background-color: var(--secondary-background-color);
 }
