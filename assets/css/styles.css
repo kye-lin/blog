@@ -124,6 +124,12 @@ body.light-theme {
   margin: 2rem auto;
 }
 
+.quote-author {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-sm);
+  margin: 2rem auto;
+}
+
 .quote-hr {
   width: 10%;
   margin: 0 auto;
@@ -728,6 +734,11 @@ featured-articles-container, .featured-content {
   margin-bottom: 3rem;
 }
 
+.blog-post-image {
+  width: 100%;
+  height: 100%;
+}
+
 .blog-post-caption {
   font-size: var(--font-size-xsm);
   color: var(--light-color-alt);
@@ -763,7 +774,7 @@ featured-articles-container, .featured-content {
   text-decoration: underline;
 }
 
-.blog-post-text .link:hover, .archive-text .link:hover {
+.blog-post-text .link:hover, .archive-text .link:hover, .quote .link:hover, .quote-author .link:hover {
   color: var(--light-color-alt);
 }
 
