@@ -850,12 +850,19 @@ featured-articles-container, .featured-content {
   }
 }
 
-@media screen and (min-width: 700px) {
-  /* .featured-article {
+/* @media screen and (min-width: 800px) {
+  .featured-article {
     height: var(--item-min-height-sm);
     width: 80%;
     gap: var(--gap);
-  } */
+    margin-bottom: var(--gap);
+  }
+  .featured-article > .article-image {
+    height: var(--item-min-height-sm);
+  }
+} */
+
+@media screen and (min-width: 700px) {
   .popular-posts-box {
     flex-direction: row;
     align-items: center;
