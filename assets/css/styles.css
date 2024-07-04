@@ -300,7 +300,7 @@ body.light-theme {
 
 .form-note {
   font-size: var(--font-size-xsm);
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .form-close-btn {
