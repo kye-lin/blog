@@ -266,8 +266,6 @@ body.light-theme {
 }
 
 .form-label {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
   text-align: left;
 }
 
@@ -639,6 +637,10 @@ featured-articles-container, .featured-content {
   text-align: center;
 }
 
+.newsletter .form {
+  flex-direction: column;
+}
+
 /* Footer */
 .footer {
   background-color: var(--secondary-background-color);
@@ -826,7 +828,7 @@ featured-articles-container, .featured-content {
 }
 
 .projects-container {
-  /* gap: var(--gap); */
+  gap: var(--gap);
   margin: var(--gap);
 }
 
@@ -888,7 +890,6 @@ featured-articles-container, .featured-content {
 
   .form-container-inner {
     align-items: center;
-
   }
 
   .company-data {
