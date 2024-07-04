@@ -246,7 +246,7 @@ body.light-theme {
   transition: opacity .5s;
 }
 
-.form-container {
+.form-container-inner {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -256,7 +256,7 @@ body.light-theme {
 
 .form {
   display: flex;
-  flex-direction: column;
+  gap: var(--gap);
   justify-content: center;
 }
 
