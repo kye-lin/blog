@@ -826,7 +826,8 @@ featured-articles-container, .featured-content {
 }
 
 .projects-container {
-  gap: var(--gap);
+  /* gap: var(--gap); */
+  margin: var(--gap);
 }
 
 .projects-container .article:hover .article-image {
