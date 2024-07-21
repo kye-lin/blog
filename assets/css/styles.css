@@ -786,7 +786,7 @@ featured-articles-container, .featured-content {
 }
 
 .author {
-  margin-top: 5rem;
+  margin-top: 15rem;
   margin-bottom: 5rem;
   gap: var(--gap);
   background-color: var(--secondary-background-color);
