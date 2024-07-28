@@ -569,9 +569,9 @@ featured-articles-container, .featured-content {
   background-color: transparent;
 }
 
-.older-posts-grid-wrapper .article-title {
+/* .older-posts-grid-wrapper .article-title {
   margin-bottom: var(--margin-sm);
-}
+} */
 
 .see-more-container {
   margin-top: var(--margin-md);
