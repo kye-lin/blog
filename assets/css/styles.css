@@ -9,8 +9,8 @@
   --gradient-color: linear-gradient(115deg, #f4949f, #f4e195, #809f88, #8ab1e9);
   --transparent-light-color: rgba(255, 255, 255, 0.05);
   --transparent-dark-color: rgba(0, 0, 0, 0.5);
-  --font-family: Arial;
-  --font-family-serif: Georgia;
+  --font-family: "Arial";
+  --font-family-serif: "Georgia";
   --font-size-xsm: 1.4rem;
   --font-size-sm: 1.8rem;
   --font-size-md: 2.4rem;
