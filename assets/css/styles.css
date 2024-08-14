@@ -136,7 +136,7 @@ body.light-theme {
 }
 
 /* iframe {
-  margin-bottom: 3rem; 
+  margin-bottom: 5rem; 
 } */
 
 /* Header */
@@ -845,6 +845,12 @@ featured-articles-container, .featured-content {
 .project-title {
   text-align: center;
   font-size: var(--font-size-lg);
+}
+
+/* Music */
+.music-youtube-container {
+  display: grid;
+  gap: 5rem;
 }
 
 /* Media queries */
