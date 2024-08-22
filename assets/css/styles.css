@@ -895,7 +895,11 @@ featured-articles-container, .featured-content {
     max-width: 40rem;
   }
 
-  .popular-tags-container, .footer-container, .projects-container {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .popular-tags-container, .projects-container {
     grid-template-columns: repeat(2, 1fr);
   }
 
