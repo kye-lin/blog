@@ -756,6 +756,7 @@ featured-articles-container, .featured-content {
 
 .blog-post-text {
   font-family: var(--font-family-serif);
+  font-size: var(--font-size-sm);
   line-height: var(--font-size-md);
 }
 
