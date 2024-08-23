@@ -814,6 +814,20 @@ featured-articles-container, .featured-content {
   margin-bottom: 1rem;
 }
 
+/* About */
+.about-div {
+  display: flex;
+}
+
+.about-par-1 {
+  margin-right: 3rem;
+}
+
+.about-pfp {
+  max-width: 30%;
+  object-fit: cover;
+}
+
 /* Projects */
 #name-header {
   font-size: var(--font-size-xl);
