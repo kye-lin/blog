@@ -760,6 +760,10 @@ featured-articles-container, .featured-content {
   margin-bottom: var(--font-size-md);
 }
 
+.blog-post-h3 .link:hover {
+  color: var(--light-color-alt);
+}
+
 .blog-post-text {
   font-family: var(--font-family-serif);
   font-size: var(--font-size-sm);
