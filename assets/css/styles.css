@@ -115,19 +115,20 @@ body.light-theme {
 }
 
 .blockquote {
-  margin: 4rem auto;
+  margin: 6rem auto;
 }
 
 .quote {
   font-family: var(--font-family-serif);
   font-size: var(--font-size-md);
-  margin: 2rem auto;
+  margin-top: 3rem;
 }
 
 .quote-author {
   font-family: var(--font-family-serif);
   font-size: var(--font-size-sm);
   margin: 2rem auto;
+  color: var(--light-color-alt)
 }
 
 .quote-hr {
@@ -757,6 +758,7 @@ featured-articles-container, .featured-content {
 .blog-post-h3 {
   font-family: var(--font-family);
   font-size: var(--font-size-md);
+  margin-top: 6rem;
   margin-bottom: var(--font-size-md);
 }
 
