@@ -754,6 +754,12 @@ featured-articles-container, .featured-content {
   margin-bottom: 4rem;
 }
 
+.blog-post-h3 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  margin-bottom: var(--font-size-md);
+}
+
 .blog-post-text {
   font-family: var(--font-family-serif);
   font-size: var(--font-size-sm);
