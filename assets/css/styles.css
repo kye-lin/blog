@@ -10,7 +10,7 @@
   --transparent-light-color: rgba(255, 255, 255, 0.05);
   --transparent-dark-color: rgba(0, 0, 0, 0.5);
   --font-family: "Arial";
-  --font-family-serif: Times, Georgia, serif;
+  --font-family-serif: Georgia, Times, serif;
   --font-size-xsm: 1.4rem;
   --font-size-sm: 1.8rem;
   --font-size-md: 2.4rem;
@@ -784,8 +784,8 @@ featured-articles-container, .featured-content {
 
 .blog-post-text {
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-md);
-  line-height: var(--font-size-lg);
+  font-size: var(--font-size-sm);
+  line-height: var(--font-size-md);
   letter-spacing: 0rem;
 }
 
